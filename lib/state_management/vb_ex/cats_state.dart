@@ -16,7 +16,7 @@ class CatsLoading extends CatsState {
 
 class CatsCompleted extends CatsState {
   final List<Cat> response; //Liste şeklinde bir cevap döndürmek için konuldu
-  // Provider daki IsLoading mantığı ile çalışıyor.
+  // Provider'daki IsLoading mantığı gibi çalışıyor.
 
   const CatsCompleted(this.response);
   //Equality Functions:
