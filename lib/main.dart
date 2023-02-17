@@ -1,4 +1,4 @@
-import 'package:bloc_ex/first_page.dart';
+import 'package:bloc_ex/state_management/cubit/first_page.dart';
 import 'package:bloc_ex/state_management/typer_cubit/screen.dart';
 import 'package:bloc_ex/state_management/vb_ex/bloc_cats_view.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: BlocCatsView(),
+      home: ProjectView(),
     );
   }
 }
