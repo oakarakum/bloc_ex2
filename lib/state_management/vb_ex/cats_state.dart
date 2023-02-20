@@ -9,9 +9,11 @@ class CatsInitial extends CatsState {
   const CatsInitial();
 }
 
-// Tek tek senaryolar için classlar oluşturuldu. yükleme başarılı yükleme, yüklememe error verme diye
+// Tek tek senaryolar için classlar oluşturuldu. yükleme başarılı yükleme, yükleme error verme diye
 class CatsLoading extends CatsState {
   const CatsLoading();
+  
+
 }
 
 class CatsCompleted extends CatsState {
